@@ -32,21 +32,6 @@ articleAnalyze:
 
 ---
 
-### 宁婉怡
-
-<div class="member-card">
-<img src="./public/images/supervisor/lwy.png" alt="宁婉怡" />
-<div class="member-info">
-北邮博士 | 苏黎世联邦理工联培 | 分布式深度学习
-
-- 北京邮电大学计算机科学与技术专业博士
-- 苏黎世联邦理工学院联合培养博士
-- 主要研究方向为分布式深度学习和模型压缩
-</div>
-</div>
-
----
-
 ### 毛宁雄
 
 <div class="member-card">
