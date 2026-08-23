@@ -1,0 +1,6 @@
+{
+  "assets": {
+    "directory": "./docs/.vitepress/dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}

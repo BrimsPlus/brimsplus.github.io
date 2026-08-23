@@ -1,0 +1,178 @@
+.text-gray {
+  color: gray;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-left{
+  text-align: left;
+}
+
+/* 团队成员 */
+.member-card {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 16px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .member-card {
+    flex-direction: column;
+  }
+}
+
+.member-card img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.member-info {
+  flex: 1;
+}
+
+.member-info h3 {
+  margin: 0 0 4px 0;
+}
+
+.member-info p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
+
+/* 竞赛奖项 */
+
+.award-item {
+  padding: 14px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+  border-left: 4px solid var(--vp-c-brand-1);
+  transition: box-shadow 0.2s;
+}
+.award-item:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.award-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+.award-detail {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+.award-detail .members {
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+}
+.award-detail .prize {
+  font-weight: 600;
+}
+.award-img-toggle {
+  margin-top: 2px;
+}
+.award-img-toggle summary {
+  cursor: pointer;
+  color: var(--vp-c-brand-1);
+  font-size: 0.8rem;
+  list-style: none;
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  background: var(--vp-c-brand-soft);
+  transition: background 0.2s;
+}
+.award-img-toggle summary:hover {
+  background: var(--vp-c-brand-soft-2);
+}
+.award-img-toggle summary::-webkit-details-marker {
+  display: none;
+}
+.award-img-toggle[open] summary::after {
+  content: "（点击收起）";
+}
+.award-img-toggle:not([open]) summary::after {
+  content: "（点击展开）";
+}
+.award-img-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-out;
+}
+.award-img-toggle[open] .award-img-content {
+  grid-template-rows: 1fr;
+}
+.award-img-content > img {
+  overflow: hidden;
+  min-height: 0;
+  max-width: 100%;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid var(--vp-c-divider);
+  opacity: 0;
+  transition: opacity 0.2s ease-out 0.05s;
+}
+.award-img-toggle[open] .award-img-content > img {
+  opacity: 1;
+}
+.grant-card {
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+  transition: box-shadow 0.2s;
+}
+.grant-card:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.grant-card.national { border-left: 4px solid #e74c3c; }
+.grant-card.provincial { border-left: 4px solid #3498db; }
+.grant-card.school { border-left: 4px solid #2ecc71; }
+.grant-title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: var(--vp-c-text-1);
+}
+.grant-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  align-items: center;
+}
+.level-tag {
+  display: inline-block;
+  padding: 1px 10px;
+  border-radius: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #fff;
+}
+.level-tag.national { background: #e74c3c; }
+.level-tag.provincial { background: #3498db; }
+.level-tag.school { background: #2ecc71; }
+.status-tag {
+  display: inline-block;
+  padding: 1px 10px;
+  border-radius: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.status-done { background: #d4edda; color: #155724; }
+.status-ongoing { background: #fff3cd; color: #856404; }
+.note { font-style: italic; color: var(--vp-c-text-3); font-size: 0.82rem; }

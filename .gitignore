@@ -1,0 +1,9 @@
+/docs/.vitepress/dist/
+/docs/.vitepress/cache/
+./gitignore
+.uploads/
+.vscode/
+dist/
+node_modules/
+/.idea/
+/.wrangler/
