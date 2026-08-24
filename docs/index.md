@@ -8,7 +8,7 @@ hero:
   text: 区块链++协会
   tagline: Beyond the Edge.
   image:
-    src: /images/logo.png
+    src: /images/logo_1000x1000.png
   actions: 
     - theme: brand
       text: 探索协会
@@ -559,7 +559,7 @@ body {
   .about-brims ~ table {
     width: calc(100% - 32px) !important;
 
-    border-spacing: 8px !important;
+    border-spacing: 8px 0 !important;
   }
 
   .about-brims ~ table th {
