@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 南华大学计算机学院区块链++协会
+title: 区块链++协会
 pageClass: index-page
 tk:
   teekHome: false
@@ -46,9 +46,9 @@ features:
 
 <div class="section-label">ABOUT BRIMS++</div>
 
-# 南华大学区块链++协会
+# 区块链++协会
 
-南华大学区块链++协会（BRIMS++）由学校与衡阳雁城区块链研究院联合组建，聚焦 **区块链、科研创新、软件开发与网络安全**，致力于打造学院创新创业与科研实践的核心平台。
+区块链++协会（BRIMS++）由学校与衡阳雁城区块链研究院联合组建，聚焦 **区块链、科研创新、软件开发与网络安全**，致力于打造学院创新创业与科研实践的核心平台。
 
 BRIMS++ 不只是协会的英文名称，更代表我们的五大探索方向：**Blockchain、Research、Innovation、Management、Security**。以区块链为技术特色，以科研为驱动，以创新为动力，以团队管理为支撑，以网络安全守护数字世界。
 
