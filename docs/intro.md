@@ -85,7 +85,7 @@ articleAnalyze:
 >
 > **BRIMS++ : Beyond the Edge.**
 
-<style scope>
+<style>
 
 /* =========================================================
    BRIMS++ 协会简介
@@ -97,7 +97,7 @@ articleAnalyze:
    1. 页面整体宽度
    ========================================================= */
 
-.VPDoc {
+.VPDoc:has(.vp-doc._intro) {
   width: 100% !important;
   max-width: 1680px !important;
   margin: 0 auto !important;
@@ -110,7 +110,7 @@ articleAnalyze:
    让正文真正展开
    ========================================================= */
 
-.VPDoc.has-aside .content-container {
+.VPDoc:has(.vp-doc._intro).has-aside .content-container {
   width: 100% !important;
   max-width: none !important;
 }
@@ -118,7 +118,7 @@ articleAnalyze:
 
 /* 正文区域 */
 
-.VPDoc.has-aside .content {
+.VPDoc:has(.vp-doc._intro).has-aside .content {
   width: 100% !important;
   max-width: 1240px !important;
   margin: 0 !important;
@@ -130,7 +130,7 @@ articleAnalyze:
    整体向页面最右侧移动
    ========================================================= */
 
-.VPDoc .aside {
+.VPDoc:has(.vp-doc._intro) .aside {
   padding-left: 48px !important;
   padding-right: 0 !important;
 }
@@ -138,7 +138,7 @@ articleAnalyze:
 
 /* 导航容器 */
 
-.VPDoc .aside-container {
+.VPDoc:has(.vp-doc._intro) .aside-container {
   width: 220px !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -148,7 +148,7 @@ articleAnalyze:
 
 /* 导航内容 */
 
-.VPDoc .aside-content {
+.VPDoc:has(.vp-doc._intro) .aside-content {
   width: 220px !important;
   margin-left: auto !important;
   margin-right: 0 !important;
@@ -159,7 +159,7 @@ articleAnalyze:
    4. 页面顶部标题
    ========================================================= */
 
-.VPDoc h1 {
+.VPDoc:has(.vp-doc._intro) h1 {
   position: relative;
 
   margin-top: 30px !important;
@@ -181,7 +181,7 @@ articleAnalyze:
 
 /* 标题下面的渐变短线 */
 
-.VPDoc h1::after {
+.VPDoc:has(.vp-doc._intro) h1::after {
   content: "";
 
   display: block;
@@ -206,7 +206,7 @@ articleAnalyze:
    5. BRIMS++ 品牌语句
    ========================================================= */
 
-.VPDoc h1 + blockquote {
+.VPDoc:has(.vp-doc._intro) h1 + blockquote {
   margin: 0 auto 48px !important;
 
   padding: 0 !important;
@@ -219,7 +219,7 @@ articleAnalyze:
 }
 
 
-.VPDoc h1 + blockquote p {
+.VPDoc:has(.vp-doc._intro) h1 + blockquote p {
   margin: 0 !important;
 
   font-size: 0.95rem;
@@ -236,7 +236,7 @@ articleAnalyze:
    6. 第一段协会简介
    ========================================================= */
 
-.VPDoc h1 + blockquote + p {
+.VPDoc:has(.vp-doc._intro) h1 + blockquote + p {
   width: 100%;
 
   margin: 0 auto 55px !important;
@@ -265,7 +265,7 @@ articleAnalyze:
    7. 分割线
    ========================================================= */
 
-.VPDoc hr {
+.VPDoc:has(.vp-doc._intro) hr {
   margin: 55px 0 !important;
 
   border: 0;
@@ -278,7 +278,7 @@ articleAnalyze:
    8. 二级标题
    ========================================================= */
 
-.VPDoc h2 {
+.VPDoc:has(.vp-doc._intro) h2 {
   position: relative;
 
   margin-top: 65px !important;
@@ -298,7 +298,7 @@ articleAnalyze:
 
 /* 标题左侧渐变竖线 */
 
-.VPDoc h2::before {
+.VPDoc:has(.vp-doc._intro) h2::before {
   content: "";
 
   display: inline-block;
@@ -324,7 +324,7 @@ articleAnalyze:
    9. 正文段落
    ========================================================= */
 
-.VPDoc p {
+.VPDoc:has(.vp-doc._intro) p {
   font-size: 1rem;
 
   line-height: 1.95;
@@ -337,7 +337,7 @@ articleAnalyze:
    10. 强调文字
    ========================================================= */
 
-.VPDoc strong {
+.VPDoc:has(.vp-doc._intro) strong {
   color: var(--vp-c-text-1);
 }
 
@@ -346,7 +346,7 @@ articleAnalyze:
    11. BRIMS 五大方向表格
    ========================================================= */
 
-.VPDoc table {
+.VPDoc:has(.vp-doc._intro) table {
   width: 100%;
 
   margin: 32px auto 40px;
@@ -361,7 +361,7 @@ articleAnalyze:
 
 /* 五大方向表格表头 */
 
-.VPDoc table:first-of-type th {
+.VPDoc:has(.vp-doc._intro) table:first-of-type th {
   padding: 18px 10px;
 
   border: 1px solid var(--vp-c-divider);
@@ -383,7 +383,7 @@ articleAnalyze:
 
 /* 五大方向内容 */
 
-.VPDoc table:first-of-type td {
+.VPDoc:has(.vp-doc._intro) table:first-of-type td {
   padding: 12px 10px;
 
   border: none;
@@ -398,7 +398,7 @@ articleAnalyze:
    12. 成果数据表格
    ========================================================= */
 
-.VPDoc table:nth-of-type(2) {
+.VPDoc:has(.vp-doc._intro) table:nth-of-type(2) {
   margin-top: 35px;
 
   margin-bottom: 35px;
@@ -407,7 +407,7 @@ articleAnalyze:
 
 /* 数据数字 */
 
-.VPDoc table:nth-of-type(2) th {
+.VPDoc:has(.vp-doc._intro) table:nth-of-type(2) th {
   padding: 22px 8px 5px;
 
   border: none;
@@ -424,7 +424,7 @@ articleAnalyze:
 
 /* 数据名称 */
 
-.VPDoc table:nth-of-type(2) td {
+.VPDoc:has(.vp-doc._intro) table:nth-of-type(2) td {
   padding: 4px 8px 22px;
 
   border: none;
@@ -441,7 +441,7 @@ articleAnalyze:
    13. 底部结束语
    ========================================================= */
 
-.VPDoc blockquote:last-child {
+.VPDoc:has(.vp-doc._intro) blockquote:last-child {
   position: relative;
 
   margin: 70px auto 30px !important;
@@ -460,7 +460,7 @@ articleAnalyze:
 }
 
 
-.VPDoc blockquote:last-child p {
+.VPDoc:has(.vp-doc._intro) blockquote:last-child p {
   margin: 5px 0;
 
   font-size: 1rem;
@@ -469,7 +469,7 @@ articleAnalyze:
 }
 
 
-.VPDoc blockquote:last-child strong {
+.VPDoc:has(.vp-doc._intro) blockquote:last-child strong {
   color: var(--vp-c-brand-1);
 }
 
@@ -480,17 +480,17 @@ articleAnalyze:
 
 @media (min-width: 1440px) {
 
-  .VPDoc {
+  .VPDoc:has(.vp-doc._intro) {
     max-width: 1760px !important;
     padding-left: 40px !important;
     padding-right: 40px !important;
   }
 
-  .VPDoc.has-aside .content {
+  .VPDoc:has(.vp-doc._intro).has-aside .content {
     max-width: 1280px !important;
   }
 
-  .VPDoc .aside {
+  .VPDoc:has(.vp-doc._intro) .aside {
     padding-left: 60px !important;
   }
 
@@ -503,15 +503,15 @@ articleAnalyze:
 
 @media (min-width: 1700px) {
 
-  .VPDoc {
+  .VPDoc:has(.vp-doc._intro) {
     max-width: 1840px !important;
   }
 
-  .VPDoc.has-aside .content {
+  .VPDoc:has(.vp-doc._intro).has-aside .content {
     max-width: 1320px !important;
   }
 
-  .VPDoc .aside {
+  .VPDoc:has(.vp-doc._intro) .aside {
     padding-left: 70px !important;
   }
 
@@ -524,16 +524,16 @@ articleAnalyze:
 
 @media (max-width: 1100px) {
 
-  .VPDoc {
+  .VPDoc:has(.vp-doc._intro) {
     padding-left: 24px !important;
     padding-right: 24px !important;
   }
 
-  .VPDoc.has-aside .content {
+  .VPDoc:has(.vp-doc._intro).has-aside .content {
     max-width: calc(100% - 220px) !important;
   }
 
-  .VPDoc .aside {
+  .VPDoc:has(.vp-doc._intro) .aside {
     padding-left: 24px !important;
   }
 
@@ -546,28 +546,28 @@ articleAnalyze:
 
 @media (max-width: 960px) {
 
-  .VPDoc {
+  .VPDoc:has(.vp-doc._intro) {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
 
-  .VPDoc.has-aside .content {
+  .VPDoc:has(.vp-doc._intro).has-aside .content {
     max-width: 100% !important;
   }
 
-  .VPDoc .aside {
+  .VPDoc:has(.vp-doc._intro) .aside {
     display: none !important;
   }
 
-  .VPDoc h1 {
+  .VPDoc:has(.vp-doc._intro) h1 {
     font-size: 2.4rem !important;
   }
 
-  .VPDoc h2 {
+  .VPDoc:has(.vp-doc._intro) h2 {
     font-size: 1.5rem !important;
   }
 
-  .VPDoc h1 + blockquote + p {
+  .VPDoc:has(.vp-doc._intro) h1 + blockquote + p {
     padding: 24px 22px;
 
     text-align: left;
@@ -582,46 +582,46 @@ articleAnalyze:
 
 @media (max-width: 640px) {
 
-  .VPDoc {
+  .VPDoc:has(.vp-doc._intro) {
     padding-left: 16px !important;
     padding-right: 16px !important;
   }
 
-  .VPDoc h1 {
+  .VPDoc:has(.vp-doc._intro) h1 {
     font-size: 2.2rem !important;
   }
 
-  .VPDoc h2 {
+  .VPDoc:has(.vp-doc._intro) h2 {
     font-size: 1.45rem !important;
   }
 
-  .VPDoc h1 + blockquote + p {
+  .VPDoc:has(.vp-doc._intro) h1 + blockquote + p {
     padding: 22px 20px;
 
     text-align: left;
   }
 
-  .VPDoc table {
+  .VPDoc:has(.vp-doc._intro) table {
     border-spacing: 4px;
   }
 
-  .VPDoc table:first-of-type th {
+  .VPDoc:has(.vp-doc._intro) table:first-of-type th {
     padding: 12px 5px;
 
     font-size: 0.82rem;
   }
 
-  .VPDoc table:first-of-type td {
+  .VPDoc:has(.vp-doc._intro) table:first-of-type td {
     padding: 8px 4px;
 
     font-size: 0.8rem;
   }
 
-  .VPDoc table:nth-of-type(2) th {
+  .VPDoc:has(.vp-doc._intro) table:nth-of-type(2) th {
     font-size: 1.45rem;
   }
 
-  .VPDoc table:nth-of-type(2) td {
+  .VPDoc:has(.vp-doc._intro) table:nth-of-type(2) td {
     font-size: 0.72rem;
   }
 
