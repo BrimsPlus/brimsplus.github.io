@@ -463,6 +463,10 @@ body {
   color: #64748b !important;
 }
 
+.vp-doc p, .vp-doc summary {
+    margin: 16px auto;
+}
+
 
 /* =========================================================
    Slogan
