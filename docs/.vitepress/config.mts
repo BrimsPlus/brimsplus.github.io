@@ -18,12 +18,16 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]
   ],
   markdown: {
+    ...teekConfig.markdown,
     image: {
       lazyLoading: true,
     },
     math: true,
     lineNumbers: true,
-    config(md){
+    config(md){// 关键：执行 teek 主题内部的 markdown-it 注册（shareCard/card等容器在这里注册）
+      if (typeof teekConfig.markdown?.config === 'function') {
+        teekConfig.markdown.config(md)
+      }
       setupPrizeContainer(md)
     }
   },

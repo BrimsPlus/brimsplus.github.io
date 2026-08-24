@@ -19,34 +19,32 @@ articleAnalyze:
 
 ### 现任管理层 (2026)
 
-<script setup>
-import { VPTeamMembers } from 'vitepress/theme';
+::: shareCard
+```yaml
+- name: 申佳玲
+  desc: 会长
+  avatar: /images/team/2026/sjl.png
+  link: https://blog.csdn.net/sjl970901
+  bgColor: "#FFB6C1"
+  textColor: "#621529"
 
-const members = [
-  {
-    name: '申佳玲',
-    title: '会长',
-    avatar: '/images/team/2026/sjl.png'
-  },
-  {
-    name: '尹向远',
-    title: '副会长兼组织部部长',
-    avatar: '/images/team/2026/yxy.png'
-  },
-  {
-    name: '曾靖文',
-    title: '副会长兼财务部部长',
-    avatar: '/images/team/2026/zjw.png'
-  },
-  {
-    name: '张佳慧',
-    title: '副会长兼宣传部部长',
-    avatar: '/images/team/2026/zjh.png'
-  },
-]
-</script>
+- name: 尹向远
+  desc: 副会长兼组织部部长
+  avatar: /images/team/2026/yxy.png
+  bgColor: "#CBEAFA"
+  textColor: "#6854A1"
 
-<VPTeamMembers size="medium" :members></VPTeamMembers>
+- name: 曾靖文
+  desc: 副会长兼财务部部长
+  avatar: /images/team/2026/zjw.png
+  bgColor: "#B9D59C"
+  textColor: "#3B551F"
+
+- name: 张佳慧
+  desc: 副会长兼宣传部部长
+  avatar: /images/team/2026/zjh.png
+```
+:::
 
 ## 部门
 
