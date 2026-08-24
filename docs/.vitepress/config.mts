@@ -39,7 +39,7 @@ export default defineConfig({
       { text: '部门架构', link: '/structure' },
       { text: '科研成果', link: '/papers' },
       { text: '竞赛奖项', link: '/achievements' },
-      // { text: '学习动态', link: '/' },
+      { text: '照片墙', link: '/memowall' },
       // { text: '项目展示', link: '/' },
     ],
     sidebarMenuLabel: "目录",

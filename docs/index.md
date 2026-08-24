@@ -23,6 +23,9 @@ hero:
     - theme: alt
       text: 竞赛奖项
       link: /achievements
+    - theme: alt
+      text: 照片墙
+      link: /memowall
 features:
   - icon: ⛓️
     title: Blockchain
@@ -215,7 +218,7 @@ BRIMS++ 不只是协会的英文名称，更代表我们的五大探索方向：
        Hero 按钮
        ========================================================= */
     
-    .VPHero .actions {
+    /*.VPHero .actions {
       position: relative;
       z-index: 5;
     
@@ -236,7 +239,7 @@ BRIMS++ 不只是协会的英文名称，更代表我们的五大探索方向：
     
       padding: 10px 24px !important;
     }
-    
+    */
     
     /* =========================================================
        Features
