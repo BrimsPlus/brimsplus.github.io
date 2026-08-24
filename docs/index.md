@@ -464,7 +464,7 @@ body {
 }
 
 .vp-doc p, .vp-doc summary {
-    margin: 16px auto;
+    margin: 16px auto !important;
 }
 
 
