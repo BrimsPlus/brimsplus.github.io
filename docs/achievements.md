@@ -21,8 +21,8 @@ articleAnalyze:
 ```yaml
 - prize: 🥇 国赛一等奖 | 基于边缘计算与机密容器的多场景可信协同平台
   members: 王韩韵、申佳玲、胡吉林、裴皓、钟睿
-  details: 第十九届中国大学生服务外包创新创业大赛 · 2026 · 企业命题类 <br>指导老师：田纹龙
-#  img: /images/achievement/FWWB
+  details: 第十九届中国大学生服务外包创新创业大赛 · 2026 · 企业命题类 <br>指导老师：田纹龙 <br> 证书编号：FT2600259A1006
+  img: /images/achievement/FWWB-2026-FT2600259A1006.png
   
 - prize: 🥉 国赛三等奖 | Emeet：基于多模态大模型与RAG的AI智能模拟面试系统
   members: 刘子杉、张佳慧、曾静、邹李奕、仇颖
