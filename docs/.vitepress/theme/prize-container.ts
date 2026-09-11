@@ -29,7 +29,7 @@ ${details}${img ? `
 <details class="award-img-toggle">
 <summary>查看证书</summary>
 <div class="award-img-content">
-<img src="${img}"  alt="${imgHint}"/>
+<img data-src="${img}" alt="${imgHint}" loading="lazy"/>
 </div>
 </details>` : ''}
 </div>

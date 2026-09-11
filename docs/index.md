@@ -57,9 +57,106 @@ BRIMS++ 不只是协会的英文名称，更代表我们的五大探索方向：
 
 </section>
 
-| 20+  |   10+   |   20+   |      10+      |
-|:----:|:-------:|:-------:|:-------------:|
-| 保研学生 | 本科生学术论文 | 国家级竞赛奖项 | 大学生创新创业训练计划项目 |
+<div class="stats-container">
+  <div class="stat-card">
+    <div class="stat-number">20+</div>
+    <div class="stat-label">保研学生</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">10+</div>
+    <div class="stat-label">本科生学术论文</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">20+</div>
+    <div class="stat-label">国家级竞赛奖项</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">10+</div>
+    <div class="stat-label">大学生创新创业训练计划项目</div>
+  </div>
+</div>
+
+<section class="awards-section">
+
+<div class="section-label">AWARDS</div>
+
+## 竞赛荣誉
+
+<div class="awards-scroll-container">
+  <div class="awards-track">
+    <div class="award-item">
+      <span class="award-medal">🥇</span>
+      <span class="award-text">国赛一等奖 | 服务外包创新创业大赛 2026</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥈</span>
+      <span class="award-text">国赛二等奖 | 计算机设计大赛 2026</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥇</span>
+      <span class="award-text">国赛一等奖 | 中国机器人及人工智能大赛 2023</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥉</span>
+      <span class="award-text">国赛三等奖 | 服务外包创新创业大赛 2024</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥈</span>
+      <span class="award-text">省赛二等奖 | 海峡两岸计算机创新作品赛 2026</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥇</span>
+      <span class="award-text">省赛一等奖 | 计算机设计大赛 2026</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥉</span>
+      <span class="award-text">国赛三等奖 | 中国软件杯 2023</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥈</span>
+      <span class="award-text">国赛二等奖 | 高校计算机设计大赛 2024</span>
+    </div>
+    <!-- 重复用于无缝滚动 -->
+    <div class="award-item">
+      <span class="award-medal">🥇</span>
+      <span class="award-text">国赛一等奖 | 服务外包创新创业大赛 2026</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥈</span>
+      <span class="award-text">国赛二等奖 | 计算机设计大赛 2026</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥇</span>
+      <span class="award-text">国赛一等奖 | 中国机器人及人工智能大赛 2023</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥉</span>
+      <span class="award-text">国赛三等奖 | 服务外包创新创业大赛 2024</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥈</span>
+      <span class="award-text">省赛二等奖 | 海峡两岸计算机创新作品赛 2026</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥇</span>
+      <span class="award-text">省赛一等奖 | 计算机设计大赛 2026</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥉</span>
+      <span class="award-text">国赛三等奖 | 中国软件杯 2023</span>
+    </div>
+    <div class="award-item">
+      <span class="award-medal">🥈</span>
+      <span class="award-text">国赛二等奖 | 高校计算机设计大赛 2024</span>
+    </div>
+  </div>
+</div>
+
+<div class="awards-cta">
+  <a href="/achievements" class="awards-link">查看全部奖项 →</a>
+</div>
+
+</section>
 
 <section class="brims-slogan">
 
@@ -73,519 +170,362 @@ BRIMS++ 不只是协会的英文名称，更代表我们的五大探索方向：
 <style>
     
     /* =========================================================
-       全局：禁止横向滚动
+       首页专属样式（仅 .index-page 生效）
        ========================================================= */
     
-    html,
-    body {
-      width: 100%;
-      max-width: 100%;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden !important;
-      overscroll-behavior-x: none !important;
-    }
-    
-    #app,
-    .VPApp,
-    .VPLayout,
-    .VPContent {
-      width: 100%;
-      max-width: 100%;
-      overflow-x: hidden !important;
-    }
-    
-    
-    /* =========================================================
-       Hero
-       ========================================================= */
-    
-    /*.VPHero {
-      position: relative;
-      width: 100%;
-      max-width: 100%;
-      box-sizing: border-box;
-      overflow: hidden !important;
-    
-      background:
-        radial-gradient(
-          circle at 10% 20%,
-          rgba(77, 166, 255, 0.18),
-          transparent 32%
-        ),
-        radial-gradient(
-          circle at 90% 15%,
-          rgba(170, 120, 255, 0.16),
-          transparent 32%
-        ),
-        radial-gradient(
-          circle at 50% 100%,
-          rgba(70, 220, 210, 0.13),
-          transparent 38%
-        ),
-        linear-gradient(
-          135deg,
-          #f8fbff 0%,
-          #ffffff 50%,
-          #faf8ff 100%
-        );
-    }*/
-    
-    
-    /* =========================================================
-       Hero 顶部彩色光带
-       ========================================================= */
-    
-    /*.VPHero::before {
-      content: "";
-    
-      position: absolute;
-      left: 0;
-      top: 0;
-    
-      width: 100%;
-      height: 5px;
-    
-      background: linear-gradient(
-        90deg,
-        #4facfe,
-        #43e6d0,
-        #8b7cff,
-        #d77cff
-      );
-    
-      z-index: 1;
-    }*/
-    
-    
-    /* =========================================================
-       Hero 内容
-       ========================================================= */
-    
-    .VPHero .container {
+    .index-page .VPHero .container {
       position: relative;
       z-index: 2;
-    
       width: 100%;
       max-width: 1200px;
-    
       margin-left: auto !important;
       margin-right: auto !important;
-    
       padding: 64px 24px !important;
-    
       box-sizing: border-box;
     }
     
-    
-    /* =========================================================
-       Hero 标题
-       ========================================================= */
-    
-    .VPHero .name {
+    .index-page .VPHero .name {
       color: #1f2937 !important;
-    
       font-weight: 700;
-    
-      font-size:
-        clamp(3rem, 6vw, 4.5rem) !important;
-    
+      font-size: clamp(3rem, 6vw, 4.5rem) !important;
       line-height: 1.15 !important;
     }
     
-    .VPHero .text {
+    .index-page .VPHero .text {
       color: #2563eb !important;
-    
       font-weight: 800;
-    
-      font-size:
-        clamp(3rem, 6vw, 4.5rem) !important;
-    
+      font-size: clamp(3rem, 6vw, 4.5rem) !important;
       line-height: 1.15 !important;
     }
     
-    .VPHero .tagline {
+    .index-page .VPHero .tagline {
       color: #64748b !important;
-    
-      font-size:
-        clamp(1.15rem, 2vw, 1.5rem) !important;
-    
+      font-size: clamp(1.15rem, 2vw, 1.5rem) !important;
       margin-top: 18px !important;
     }
     
-    
-    /* =========================================================
-       Hero 按钮
-       ========================================================= */
-    
-    /*.VPHero .actions {
-      position: relative;
-      z-index: 5;
-    
-      display: flex;
-    
-      justify-content: center !important;
-    
-      flex-wrap: wrap;
-    
-      gap: 16px;
-    
-      margin-top: 30px;
-    }
-    
-    .VPHero .actions button,
-    .VPHero .actions a {
-      font-size: 1.05rem !important;
-    
-      padding: 10px 24px !important;
-    }
-    */
-    
-    /* =========================================================
-       Features
-       ========================================================= */
-    
-    .VPFeatures {
+    .index-page .VPFeatures {
       width: 100%;
       max-width: 100%;
-    
       overflow: hidden !important;
     }
     
-    .VPFeatures .container {
+    .index-page .VPFeatures .container {
       width: 100%;
-    
       max-width: 1400px;
-    
       margin-left: auto !important;
       margin-right: auto !important;
-    
       padding-left: 24px;
       padding-right: 24px;
-    
       box-sizing: border-box;
     }
     
-    
-    /* =========================================================
-       五个方向：桌面端严格一行
-       ========================================================= */
-    
-    .VPFeatures .container .items {
+    .index-page .VPFeatures .container .items {
       width: 100%;
       max-width: 100%;
-    
       display: grid !important;
-    
-      grid-template-columns:
-        repeat(5, minmax(0, 1fr)) !important;
-    
-      /*gap: 0px !important;*/
-    
+      grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
       margin-left: auto !important;
       margin-right: auto !important;
-    
       box-sizing: border-box;
     }
     
-    .VPFeatures .container .items .item {
+    .index-page .VPFeatures .container .items .item {
       width: 100% !important;
-    
       max-width: 100% !important;
-    
       min-width: 0 !important;
-    
       flex: none !important;
-    
       box-sizing: border-box;
     }
     
-    .VPFeature {
+    .index-page .VPFeature {
       width: 100%;
-    
       max-width: 100% !important;
-    
       min-width: 0 !important;
-    
       box-sizing: border-box;
+      transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+      border-radius: 12px !important;
     }
     
+    .index-page .VPFeature:hover {
+      transform: translateY(-4px) !important;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08) !important;
+    }
     
-    /* =========================================================
-       Feature 文字
-       ========================================================= */
-    
-    .VPFeature .title {
+    .index-page .VPFeature .title {
       font-size: 1.15rem !important;
     }
     
-    .VPFeature .details {
+    .index-page .VPFeature .details {
       font-size: 0.95rem !important;
-    
       max-width: 100%;
-    
       overflow-wrap: anywhere;
-    
       word-break: break-word;
     }
     
-    
-    /* =========================================================
-       协会简介
-       ========================================================= */
-    
-    .about-brims {
-      width: min(
-        1050px,
-        calc(100% - 48px)
-      );
-    
+    .index-page .about-brims {
+      width: min(1050px, calc(100% - 48px));
       margin: 90px auto 60px;
-    
       text-align: center;
     }
     
-    
-    /* ABOUT BRIMS++ */
-    
-    .section-label {
+    .index-page .section-label {
       margin-bottom: 14px;
-    
       font-size: 0.82rem;
-    
       font-weight: 700;
-    
       letter-spacing: 0.2em;
-    
       color: #2563eb;
     }
     
-    
-    /* 简介标题 */
-    
-    .about-brims h1 {
+    .index-page .about-brims h1 {
       margin-top: 0;
-    
       margin-bottom: 30px;
-    
       border-top: none !important;
-    
       font-size: 2.3rem;
-    
       font-weight: 700;
-    
-      /*color: #1f2937;*/
     }
     
-    
-    /* 简介段落 */
-    
-    .about-brims p {
+    .index-page .about-brims p {
       max-width: 900px;
-    
       margin-left: auto;
       margin-right: auto;
-    
       font-size: 1rem;
-    
       line-height: 1.95;
-    
       color: #64748b;
     }
     
-    
-    /* 第一段稍微突出 */
-    
-    .about-brims p:first-of-type {
+    .index-page .about-brims p:first-of-type {
       font-size: 1.08rem;
-    
       color: #475569;
     }
     
-    
-    /* =========================================================
-       数据统计表
-       ========================================================= */
-    
-    .about-brims + table,
-    .about-brims ~ table {
-      width: min(
-        950px,
-        calc(100% - 48px)
-      ) !important;
-    
-      margin: 55px auto 80px !important;
-    
-      border-collapse: separate !important;
-    
-      border-spacing: 16px 0 !important;
-    
-      background: transparent !important;
+    .index-page .stats-container {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      max-width: 1000px;
+      margin: 55px auto 80px;
+      padding: 0 24px;
+      flex-wrap: wrap;
     }
     
-    
-    /* 表头 */
-    
-    .about-brims ~ table th {
-      width: 25%;
-    
-      padding: 24px 12px 5px !important;
-    
-      text-align: center !important;
-    
-      border: none !important;
-    
-      background-color: var(--vp-c-bg-soft);
-    
-      border-radius: 16px 16px 0 0 !important;
-    
-      font-size: 2.2rem !important;
-    
-      font-weight: 800 !important;
-    
-      color: #2563eb !important;
+    .index-page .stat-card {
+      flex: 1;
+      min-width: 180px;
+      max-width: 220px;
+      padding: 32px 20px;
+      background: var(--vp-c-bg-soft);
+      border-radius: 16px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     
-    
-    /* 数据说明 */
-    
-    .about-brims ~ table td {
-      width: 25%;
-    
-      padding: 5px 12px 24px !important;
-    
-      text-align: center !important;
-    
-      border: none !important;
-    
-      background-color: var(--vp-c-bg-soft);
-    
-      border-radius: 0 0 16px 16px !important;
-    
-      font-size: 0.95rem !important;
-    
-      color: #64748b !important;
+    .index-page .stat-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     }
     
-    .VPHome .vp-doc p, .VPHome .vp-doc summary {
-        margin: 16px auto !important;
+    .index-page .stat-number {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: #2563eb;
+      line-height: 1.2;
     }
     
+    .index-page .stat-label {
+      margin-top: 8px;
+      font-size: 0.92rem;
+      color: #64748b;
+    }
     
-    /* =========================================================
-       Slogan
-       ========================================================= */
-    
-    .brims-slogan {
-      width: min(
-        900px,
-        calc(100% - 48px)
-      );
-    
-      margin: 20px auto 100px;
-    
+    .index-page .awards-section {
+      width: min(1200px, calc(100% - 48px));
+      margin: 40px auto 80px;
       text-align: center;
     }
     
-    .brims-slogan blockquote {
-      margin: 0 0 18px;
-    
-      padding: 0;
-    
-      border-left: none !important;
-    
-      font-size: 1.25rem;
-    
-      font-weight: 600;
-    
-      color: #334155;
-    }
-    
-    .brims-slogan strong {
-      color: #334155;
-    }
-    
-    .brims-slogan > p:last-child {
-      margin-top: 15px;
-    
-      font-size: 0.95rem;
-    
+    .index-page .awards-section h2 {
+      margin-top: 0;
+      margin-bottom: 32px;
+      font-size: 2rem;
       font-weight: 700;
+      color: #1f2937;
+    }
     
+    .index-page .awards-scroll-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 10%,
+        black 90%,
+        transparent 100%
+      );
+      -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        black 10%,
+        black 90%,
+        transparent 100%
+      );
+    }
+    
+    .index-page .awards-track {
+      display: flex;
+      gap: 16px;
+      width: max-content;
+      animation: scroll-awards 40s linear infinite;
+    }
+    
+    .index-page .awards-track:hover {
+      animation-play-state: paused;
+    }
+    
+    @keyframes scroll-awards {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+    
+    .index-page .award-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 24px;
+      background: var(--vp-c-bg-soft);
+      border-radius: 12px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .index-page .award-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+    
+    .index-page .award-medal {
+      font-size: 1.5rem;
+    }
+    
+    .index-page .award-text {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #334155;
+    }
+    
+    .index-page .awards-cta {
+      margin-top: 32px;
+    }
+    
+    .index-page .awards-link {
+      display: inline-block;
+      padding: 12px 32px;
+      background: #2563eb;
+      color: #ffffff !important;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none !important;
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+    
+    .index-page .awards-link:hover {
+      background: #1d4ed8;
+      transform: translateY(-2px);
+    }
+    
+    .index-page .brims-slogan {
+      width: min(900px, calc(100% - 48px));
+      margin: 20px auto 100px;
+      text-align: center;
+    }
+    
+    .index-page .brims-slogan blockquote {
+      margin: 0 0 18px;
+      padding: 0;
+      border-left: none !important;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #334155;
+    }
+    
+    .index-page .brims-slogan strong {
+      color: #334155;
+    }
+    
+    .index-page .brims-slogan > p:last-child {
+      margin-top: 15px;
+      font-size: 0.95rem;
+      font-weight: 700;
       letter-spacing: 0.08em;
-    
       color: #2563eb;
     }
     
-    
-    /* =========================================================
-       平板
-       ========================================================= */
-    
     @media (max-width: 900px) {
-    
-      .VPFeatures .container .items {
-        grid-template-columns:
-          repeat(3, minmax(0, 1fr)) !important;
+      .index-page .VPFeatures .container .items {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
       }
-    
+      .index-page .stats-container {
+        gap: 16px;
+      }
+      .index-page .stat-card {
+        min-width: 140px;
+      }
     }
     
-    
-    /* =========================================================
-       手机
-       ========================================================= */
-    
     @media (max-width: 640px) {
-    
-      .VPHero .container {
+      .index-page .VPHero .container {
         padding-left: 16px !important;
         padding-right: 16px !important;
       }
-    
-      .VPFeatures .container {
+      .index-page .VPFeatures .container {
         padding-left: 16px;
         padding-right: 16px;
       }
-    
-      .VPFeatures .container .items {
-        grid-template-columns:
-          1fr !important;
+      .index-page .VPFeatures .container .items {
+        grid-template-columns: 1fr !important;
       }
-    
-      .about-brims {
+      .index-page .about-brims {
         width: calc(100% - 32px);
-    
         margin-top: 60px;
       }
-    
-      .about-brims h1 {
+      .index-page .about-brims h1 {
         font-size: 1.8rem;
       }
-    
-      .about-brims + table,
-      .about-brims ~ table {
-        width: calc(100% - 32px) !important;
-    
-        border-spacing: 8px 0 !important;
+      .index-page .stats-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding: 0 16px;
       }
-    
-      .about-brims ~ table th {
-        padding: 18px 5px 4px !important;
-    
-        font-size: 1.6rem !important;
+      .index-page .stat-card {
+        width: 100%;
+        max-width: 280px;
       }
-    
-      .about-brims ~ table td {
-        padding: 4px 5px 18px !important;
-    
-        font-size: 0.82rem !important;
+      .index-page .stat-number {
+        font-size: 2.2rem;
       }
-    
-      .brims-slogan {
+      .index-page .awards-section {
         width: calc(100% - 32px);
       }
-    
+      .index-page .awards-section h2 {
+        font-size: 1.6rem;
+      }
+      .index-page .award-item {
+        padding: 12px 16px;
+      }
+      .index-page .award-text {
+        font-size: 0.85rem;
+      }
+      .index-page .brims-slogan {
+        width: calc(100% - 32px);
+      }
     }
-
+    
 </style>
