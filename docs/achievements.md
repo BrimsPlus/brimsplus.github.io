@@ -33,6 +33,11 @@ articleAnalyze:
   members: 胡杰、蔡真宇、丁业、伍强、吴伟
   details: 第十九届中国大学生服务外包创新创业大赛 · 2026 · 企业命题类 <br>指导老师：田纹龙 <br> 证书编号：FT2603181A3023
   img: /images/achievement/FWWB-2026-FT2603181A3023.jpg
+
+- prize: 🥉 国赛三等奖
+  members: 赵耀、刘新宇、汪意、⻩瀚娇、殷静怡
+  details: 第十九届中国大学生服务外包创新创业大赛 · 2026 · 企业命题类 <br>指导老师：田纹龙 <br> 证书编号：FT2602934A3247
+  img: /images/achievement/FWWB-2026-FT2602934A3247.jpg
   
 - prize: 🥉 国赛三等奖 | 三棱镜安全中心
   members: 罗湘昭、梁秋菊、马利君
