@@ -26,6 +26,9 @@ hero:
     - theme: alt
       text: 照片墙
       link: /memowall
+    - theme: alt
+      text: 加入我们
+      link: /join
 features:
   - icon: ⛓️
     title: Blockchain

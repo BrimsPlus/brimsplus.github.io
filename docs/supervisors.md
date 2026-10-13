@@ -29,3 +29,26 @@ articleAnalyze:
 - 硕士生导师
 </div>
 </div>
+
+### 夏石萤
+
+<div class="member-card">
+<img src="./public/images/supervisor/xsy.png" alt="夏石萤" />
+<div class="member-info">
+
+- 网络空间安全专业优秀教师，拥有丰富的教学育人经验。
+- 老师治学认真负责，关怀学生成长，在学生群体中拥有良好口碑，为协会发展提供专业指导与支持
+</div>
+</div>
+
+### 毛宁雄
+
+<div class="member-card">
+<img src="./public/images/supervisor/mnx.png" alt="毛宁雄" />
+<div class="member-info">
+
+- 西南交通大学信息科学与技术学院工学博士
+- 主要研究方向包括可逆信息隐藏、图像加密等
+- 目前已在国内外高水平期刊及会议上发表学术论文20余篇
+</div>
+</div>

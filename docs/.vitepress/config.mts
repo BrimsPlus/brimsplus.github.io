@@ -44,7 +44,7 @@ export default defineConfig({
       { text: '科研成果', link: '/papers' },
       { text: '竞赛奖项', link: '/achievements' },
       { text: '照片墙', link: '/memowall' },
-      // { text: '项目展示', link: '/' },
+      { text: '加入我们', link: '/join' },
     ],
     sidebarMenuLabel: "目录",
     outline: {
