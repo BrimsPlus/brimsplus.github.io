@@ -30,10 +30,10 @@ articleAnalyze:
 </div>
 </div>
 
-### 夏石萤
+### 夏石莹
 
 <div class="member-card">
-<img src="./public/images/supervisor/xsy.png" alt="夏石萤" />
+<img src="./public/images/supervisor/xsy.png" alt="夏石莹" />
 <div class="member-info">
 
 - 网络空间安全专业优秀教师，拥有丰富的教学育人经验。
